@@ -1,0 +1,154 @@
+.home {
+    position: relative;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../assests/david.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    opacity: 0.6;
+}
+
+.home_container{
+    max-height: 100vh;
+}
+
+.intro {
+    position: absolute;
+    top: 10rem;
+    left: 30rem;
+    max-width: 540px;
+    text-align: center;
+    z-index: 1;
+}
+
+.home_name {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-bold);
+    margin-bottom: 0.5rem;
+}
+
+.home_education {
+    display: block;
+    margin-bottom: 1rem;
+    color: var(--body-color);
+}
+
+.quote {
+    display: block;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    line-height: 1.5;  
+}
+
+.home_social-link {
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.home_social-link a { 
+    color: var(--title-color);
+    font-size: .5rem;
+    transition: .3s;
+    margin-right: 1rem;
+}
+
+.home_social-link a i{
+    font-size: 1.5rem;
+}
+
+.home_social-link a:hover {
+    color: rgb(34, 145, 243);
+}
+
+.scroll_down {
+    position: absolute;
+    display: flex;
+    bottom: 2.5rem;
+    width: 100%;
+    left: 50%;
+    text-decoration: none;
+    color: var(--body-color);
+}
+
+.home_scroll-name {
+    font-size: var(--small-font-size);
+    color: var(--body-color);
+}
+
+.mouse {
+    border: 2px solid #4543;
+    display: block;
+    height: 1.6rem;
+    width: 1.25rem;
+    margin: auto;
+    margin-top: .75rem;
+    border-radius: 1rem;
+    position: relative;
+
+}
+
+@keyframes ani-mouse {
+    0%{
+        top: 29%;
+    }
+
+    15%{
+        top: 50%;
+    }
+
+    50%{
+        top: 50%;
+    }
+
+    100%{
+        top: 50%;
+    }
+}
+
+.wheel {
+    background-color: var(--title-color);
+    border-radius: 100%;
+    width: 0.25rem;
+    height: 0.25rem;
+    position: absolute;
+    top: .5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: ani-mouse 2s linear infinite;
+}
+
+@media screen and (max-width: 1024px) {
+    .home {
+        position: relative;
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+        background-image: url("../../assests/david.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 100%;
+        opacity: 0.2;
+    }
+
+    .intro {
+        position: absolute;
+        top: 25%;
+        left: 2%;
+        text-align: center;
+        z-index: 1;
+        max-width: 540px;
+    }
+
+    .home_social-link {
+        font-size: 1.125rem;
+    }
+
+    .scroll_down {
+        left: 0%;
+        padding-left: 40%;
+    }
+}
