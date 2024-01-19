@@ -61,17 +61,17 @@
 
 .development {
     width: 90%;
-    background-color: rgb(255, 209, 92);
+    background-color: rgb(33, 158, 253);
 }
 
 .ui_design {
-    width: 60%;
-    background-color: rgb(255,76,96);
+    width: 80%;
+    background-color: rgb(33, 158, 253);
 }
 
 .photography {
     width: 70%;
-    background-color: rgb(108,108,299);
+    background-color: rgb(33, 158, 253);
 }
 
 .about_boxes {
@@ -99,23 +99,21 @@
     align-items: center;
 }
 
-.about_info svg {
+.icon_skills {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     font-size: 50px;
-    margin-right: 72px;
     color: var(--first-color);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-.about_info svg:hover {
-    font-size: 60px;
-    padding: 0;
-    color: var(--body-color);
-    margin-bottom: 0px;
-    margin-right: 62px;
+.icon_skills label {
+    transition: transform 0.3s ease;
 }
 
-.about_info svg:last-of-type {
-    margin-right: 0;
+.icon_skills label:hover {
+    transform: scale(1.2);
 }
 
 .btn_resume {

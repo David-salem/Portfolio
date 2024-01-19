@@ -48,8 +48,14 @@
     resize: none;
 }
 
-.btn_textarea{
+.btn_textarea {
     margin-top: .5rem;
+}
+
+.btn_textarea:disabled{
+    cursor: not-allowed;
+    color: var(--text-color);
+    background-color: var(--first-color);
 }
 
 .loader-contact{

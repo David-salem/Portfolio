@@ -2,6 +2,34 @@
   margin-left: 110px;
 }
 
+.btn_lang {
+  position: fixed;
+  top: 1rem;
+  right: 4rem;
+  z-index: 10;
+  display: flex;
+  width: 90px;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.btn_lang button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn_lang button.selected {
+  text-decoration: underline;
+  color: rgb(16, 122, 179);
+}
+
+.btn_lang p {
+  color: #000;
+  margin: 0 5px;
+}
+
 @media screen and (max-width: 1024px) {
   .main {
     margin-left: 0;
