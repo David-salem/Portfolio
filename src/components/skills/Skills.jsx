@@ -10,11 +10,10 @@ export const Skills = ({ t }) => {
 const quoteLines = t("skillsSection.description").split('\n');
 
   return (
-    <section className="about container section" id='skills'>
+    <section className="skills_container container section" id='skills'>
       <h2 className="section_title">{t("skillsSection.title")}</h2>
 
-      <div className="about_container grid">
-        <div className="about_data grid">
+        <div className="skills_data grid">
           <div className="about_info">
           <div className="icon_skills">
                 <label title="HTML">
@@ -45,15 +44,15 @@ const quoteLines = t("skillsSection.description").split('\n');
                     <FaGitAlt />
                 </label>
           </div>
-            <p className="about_description">
-                {quoteLines.map((line, index) => (
-                <p key={index}>{line}</p>
-                ))}
-            </p>
+          <p className="skills_description">
+              {quoteLines.map((line, index) => (
+              <p key={index}>{line}</p>
+              ))}
+          </p>
           </div>
 
           <div className="about_skills grid">
-            <div className="skills_data">
+            <div className="skills_data-icons">
               <div className="skills_titles">
                 <h3 className="skills_name">{t("skillsSection.development.name")}</h3>
                 <span className="skills_number">90%</span>
@@ -63,7 +62,7 @@ const quoteLines = t("skillsSection.description").split('\n');
               </div>
             </div>
 
-            <div className="skills_data">
+            <div className="skills_data-icons">
               <div className="skills_titles">
                 <h3 className="skills_name">{t("skillsSection.ui_design.name")}</h3>
                 <span className="skills_number">80%</span>
@@ -73,7 +72,7 @@ const quoteLines = t("skillsSection.description").split('\n');
               </div>
             </div>
 
-            <div className="skills_data">
+            <div className="skills_data-icons">
               <div className="skills_titles">
                 <h3 className="skills_name">{t("skillsSection.photography.name")}</h3>
                 <span className="skills_number">70%</span>
@@ -84,7 +83,6 @@ const quoteLines = t("skillsSection.description").split('\n');
             </div>
           </div>
         </div>
-      </div>
     </section>
   );
 };

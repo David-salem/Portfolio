@@ -11,7 +11,12 @@
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow-y: auto;
     z-index: 99;
+}
+
+.modal-scrollable-content {
+    max-height: calc(80vh - 60px);
 }
 
 .overlay {

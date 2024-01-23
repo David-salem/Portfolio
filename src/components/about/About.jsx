@@ -3,10 +3,10 @@ import "./About.css";
 
 export const About = ({ t }) => {
   const handleDownload = () => {
-    const url = process.env.PUBLIC_URL + '/Resume.pdf';
+    const cvPath = t("aboutSection.pathCV");
 
     const link = document.createElement('a');
-    link.href = url;
+    link.href = cvPath;
     link.download = 'Resume.pdf';
     document.body.appendChild(link);
     link.click();
@@ -14,10 +14,9 @@ export const About = ({ t }) => {
   };
 
   return (
-    <section className="about container section" id='about'>
+    <section className="about_container container section" id='about'>
       <h2 className="section_title">{t('aboutSection.title')}</h2>
 
-      <div className="about_container grid">
         <div className="about_data grid">
           <div className="about_info">
             <p className="about_description">
@@ -30,7 +29,6 @@ export const About = ({ t }) => {
             </button>
           </div>
         </div>
-      </div>
     </section>
   );
 };

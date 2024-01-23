@@ -9,21 +9,45 @@ const Modal = (props) => {
     useEffect(() => {
         const handleOutsideClick = (e) => {
             if (modalRef.current && !modalRef.current.contains(e.target)) {
-                props.onClose();
+                handleCloseModal();
             }
+        };
+
+        const scrollToResume = () => {
+            const resumeComponent = document.getElementById("resume");
+            resumeComponent.scrollIntoView({ behavior: "smooth" });
+        };
+
+        const handleMouseLeaveResume = () => {
+            handleCloseModal();
         };
 
         document.addEventListener("mousedown", handleOutsideClick);
 
+        if (props.active) {
+            scrollToResume();
+            document.body.style.overflow = "hidden";
+        }
+
+        const resumeComponent = document.getElementById("resume");
+        resumeComponent.addEventListener("mouseleave", handleMouseLeaveResume);
+
         return () => {
             document.removeEventListener("mousedown", handleOutsideClick);
+            document.body.style.overflow = "auto";
+            resumeComponent.removeEventListener("mouseleave", handleMouseLeaveResume);
         };
     }, [props]);
+
+    const handleCloseModal = () => {
+        props.onClose();
+        document.body.style.overflow = "auto";
+    };
 
     return (
         <div className={`overlay ${props.active ? "active" : ""}`}>
             <div className={`modal ${props.active ? "active" : ""}`} ref={modalRef}>
-                <span className="close" onClick={props.onClose}>&times;</span>
+                <span className="close" onClick={handleCloseModal}>&times;</span>
                 <h2 className="company-name">{props.company}</h2>
                 <p className="job-title">{t(props.title)}</p>
                 <p className="job-duration">{props.year}</p>
@@ -33,9 +57,11 @@ const Modal = (props) => {
                 <p className="achievements">
                     <span className="label">{t("modal.achievementsLabel")}:</span> {props.achievements}
                 </p>
-                <p className="skills">
-                    <span className="label">{t("modal.skillsLabel")}:</span> {props.skills}
-                </p>
+                <div className="modal-scrollable-content">
+                    <p className="skills">
+                        <span className="label">{t("modal.skillsLabel")}:</span> {props.skills}
+                    </p>
+                </div>
             </div>
         </div>
     );    

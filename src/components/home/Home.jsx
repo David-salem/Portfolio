@@ -31,7 +31,6 @@ export const Home = ({ t }) => {
           ))}
         </div>
       </div>
-      <div className="home"></div>
       <ScrollDown 
         t={t}
       />

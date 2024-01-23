@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import "./App.css";
 import { useTranslation } from 'react-i18next';
 import { Sidebar, Home, Portfolio, Resume, Services, About, Contact, Skills } from './components/index';
@@ -6,16 +6,21 @@ import { Fade } from 'react-awesome-reveal';
 
 const App = () => {
   const { t, i18n } = useTranslation();
-  const [selectedLanguage, setSelectedLanguage] = useState(null);
+  const initialLanguage = localStorage.getItem('selectedLanguage') || 'en';
+  const [selectedLanguage, setSelectedLanguage] = useState(initialLanguage);
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
     setSelectedLanguage(lng);
   };
 
+  useEffect(() => {
+    localStorage.setItem('selectedLanguage', selectedLanguage);
+  }, [selectedLanguage]);
+
   return (
     <>
-      <Sidebar />
+      <Sidebar t={t} />
       <main className="main">
         <div className='btn_lang'>
         <div className='btn_lang'>

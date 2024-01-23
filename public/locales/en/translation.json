@@ -1,4 +1,13 @@
-{
+{   
+    "aside": {
+      "home": "Home",
+      "me": "Me",
+      "services": "Services",
+      "experience": "History",
+      "skills": "Skills",
+      "work": "Portfolio",
+      "contact": "Contact"
+    },
     "homeSection": {
       "name": "David Salem",
       "education": "Fullstack developer",
@@ -12,7 +21,8 @@
         "paragraph2": "My main focus at present is dedicated to my ongoing development as a programmer. I am actively engaged in expanding my skill set, exploring new challenges, and enhancing my proficiency in various programming languages. I am enthusiastic about contributing my knowledge and skills to impactful projects, leveraging my adaptability to navigate the landscape of the tech industry.",
         "paragraph3": "I firmly believe that technology is the key to fostering innovation and efficiency in any organization. If you are looking for professionalism and dedication, count on me!"
       },
-      "downloadCV": "Download CV"
+      "downloadCV": "Download CV",
+      "pathCV": "/Resume-en.pdf"
     },
     "resumeSection": {
       "title": "Experience",
@@ -108,7 +118,7 @@
     "contactSection": {
       "title": "Get In Touch",
       "subtitle": "Let's talk about everything!",
-      "emailMessage": "Don't like forms? Send me an email. 👋🏼",
+      "emailMessage": "Send me an email. 👋🏼",
       "placeholderName": "Insert your name",
       "placeholderEmail": "Insert your email",
       "placeholderSubject": "Insert your subject",

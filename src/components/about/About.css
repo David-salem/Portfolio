@@ -1,15 +1,12 @@
-.about_container {
-    grid-template-columns: 3fr 9fr;
-    column-gap: 1.875rem;
-}
-
 .about_data {
-    padding: 1.875rem 1.875rem 3rem 1.875rem;
+    padding: 3% 5% 6% 5%;
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 1100px;
-    transition: .3s;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    transition: 0.3s;
 }
 
 .about_data:hover {
@@ -94,33 +91,34 @@
     font-size: 1.875rem;
 }
 
-.about_info{
+.about_info {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
-.btn_resume{
-    position: absolute;
-    left: 43%;
+.btn_resume {
+    position: fixed;
+    bottom: 1rem;
 }
 
 @media screen and (max-width: 1024px) {
     .about_container {
-        grid-template-columns: 720px;
+        grid-template-columns: 1fr;
         justify-content: center;
         row-gap: 1.875rem;
     }
 
-    .about_data::before {
-        border-left: 10px solid transparent;
-        border-right: 10px solid transparent;
-        border-bottom: 10px solid #fff;
-        left: 49%;
-        top: -20px;
+    .about_description {
+        text-align: left;
     }
 
-    .about_img {
-        justify-self: center;
+    .about_data {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
     }
 
     .about_box {
@@ -128,25 +126,20 @@
         row-gap: .5rem;
         text-align: center;
     }
+
+    .btn_resume {
+        margin-top: 10rem;
+    }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
     .about_container {
-        grid-template-columns: 350px;
+        grid-template-columns: 1fr;
         justify-content: center;
     }
 
-    .about_data::before {
-        left: 47%;
-    }
-
-    .about_data {
-        grid-template-columns: 1fr;
-        row-gap: 1.875rem;
-    }
-
     .about_boxes {
-        grid-template-columns: repeat(2, 150px);
+        grid-template-columns: repeat(2, 1fr);
         row-gap: 1.5rem;
         justify-content: center;
     }
@@ -155,7 +148,34 @@
         justify-content: center;
     }
 
-    /* .btn_resume {
-        justify-self: center;
-    } */
+    .btn_resume {
+        position: fixed;
+        bottom: 1rem;
+        left: 30%;
+        transform: translateX(-30%);
+        font-size: small;
+    }
+
+    .about_description {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .about_data {
+        width: 95%;
+        max-width: 95%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .about_box {
+        flex-direction: column;
+        row-gap: .5rem;
+        text-align: center;
+    }
+
+    .btn_resume {
+       bottom: 0;
+    }
 }
