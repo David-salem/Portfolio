@@ -1,0 +1,129 @@
+{   
+    "aside": {
+      "home": "Home",
+      "me": "Me",
+      "services": "Services",
+      "experience": "History",
+      "skills": "Skills",
+      "work": "Portfolio",
+      "contact": "Contact"
+    },
+    "homeSection": {
+      "name": "David Salem",
+      "education": "Fullstack developer",
+      "quote": "30 years old, Argentinian. \nConstantly seeking new challenges. \nI find fulfillment in collaborating with individuals and contributing to transformative teams. \nIn my free time, I enjoy nature, surfing, traveling and good food."
+    },
+    "scrollDown": "Scroll Down",
+    "aboutSection": {
+      "title": "My story",
+      "description": {
+        "paragraph1": "Back in 2022, I made the decision to expand my professional profile by gaining knowledge in software development. Driven by my deep interest in the latest technology, I completed my training as a Certified Fullstack Developer at ITC. After a successful internship at Insait, I swiftly immersed myself in Alaia, a company that allowed me to apply and demonstrate my diverse skill set.",
+        "paragraph2": "My main focus at present is dedicated to my ongoing development as a programmer. I am actively engaged in expanding my skill set, exploring new challenges, and enhancing my proficiency in various programming languages. I am enthusiastic about contributing my knowledge and skills to impactful projects, leveraging my adaptability to navigate the landscape of the tech industry.",
+        "paragraph3": "I firmly believe that technology is the key to fostering innovation and efficiency in any organization. If you are looking for professionalism and dedication, count on me!"
+      },
+      "downloadCV": "Download CV",
+      "pathCV": "/Resume-en.pdf"
+    },
+    "resumeSection": {
+      "title": "Experience",
+      "educationSubtitle": "Education",
+      "experienceSubtitle": "Employment History"
+    },
+    "card": {
+      "seeMore": "See more"
+    },
+    "modal": {
+      "jobDescriptionLabel": "Job Description",
+      "achievementsLabel": "Outstanding Achievements",
+      "skillsLabel": "Acquired Skills"
+    },
+    "servicesSection": {
+      "title": "Services"
+  },
+  "services": {
+      "uiUxDesign": {
+          "title": "UI/UX design",
+          "description": "I design user-friendly digital interfaces with a focus on enhancing user experiences through visually appealing and intuitive designs."
+      },
+      "webDevelopment": {
+          "title": "Web Development",
+          "description": "I specialize in web development. My role involves coding, programming, and ensuring seamless functionality. I focus on creating responsive and user-friendly web experiences, incorporating both front-end and back-end technologies"
+      },
+      "photography": {
+          "title": "Photography",
+          "description": "I capture moments through photography and develop user-friendly websites for seamless online experiences."
+      }
+  },
+  "resume": {
+      "job": {
+          "fullStackWebDeveloper": "As a Full Stack Web Developer at Alaia Digital, I embarked on my journey in the professional development world, contributing to the team's projects and expanding my skill set. I played a crucial role in the development lifecycle, from ideation to deployment, and gained valuable insights into the dynamic field of web development.",
+          "internshipFullStackWebDeveloper": "My three-month internship at Insait was my first exposure to the world of programming. From coding tasks to testing task, I actively engaged in various aspects. The exposure to real-world coding scenarios solidified my decision to pursue this path further.",
+          "lifeguard": "I maintained a vigilant presence, ensuring the safety of the pool. Responded promptly to emergencies, executing effective water rescues and administering first aid when necessary. Facilitated swimming lessons and educational programs to enhance water safety awareness. These responsibilities equipped me with strong communication, problem-solving, and emergency response skills, making a valuable contribution to a lifeguarding team.",
+          "marketingAssistant": "Assisted in crafting and implementing marketing campaigns across diverse channels, including digital and social media. Creating engaging content for promotional materials, websites, and social media platforms, ensuring it matched our brand identity. Managing and updating marketing databases, mailing lists, and customer profiles."
+      },
+      "achievements": {
+          "fullStackWebDeveloper": "I complete various numbers of web development projects, showcasing my ability to deliver high-quality solutions. Implementing responsive and user-friendly designs, contributing to enhanced user experiences for clients. Collaborating with cross-functional teams to meet project deadlines and exceed client expectations. Receiving positive feedback from clients for my contributions to project success.",
+          "internshipFullStackWebDeveloper": "During my internship I made significant contributions to the development of the product including: Collaborating with the team to implement new features, improving the overall functionality of the application.Resolving critical bugs and optimizing code, enhancing the product's performance and user experience. Assisting in the design and implementation of database structures, ensuring efficient data management.",
+          "lifeguard": "Maintained an impeccable safety record with zero water-related incidents under my watch, demonstrating consistent diligence and effectiveness in accident prevention.",
+          "marketingAssistant": "I successfully optimized marketing processes through tech-driven enhancements, integrated digital tools for seamless cross-platform operations, and implemented automation scripts, reducing manual workload."
+      },
+      "skills": {
+          "fullStackWebDeveloper": "Object-oriented programming, React, Data Base, CSS, HTML, Redux, Client Communication, Problem-solving, Time Management",
+          "internshipFullStackWebDeveloper": "Node, React, Docker, Database Management, Git, Cypress, Agile Development, Problem-solving, Team Collaboration, Communication",
+          "lifeguard": "First aid and CPR. Manage groups, communicate clearly, and enforce rules.",
+          "marketingAssistant": "Data analysis, digital marketing tools utilization and the development of automation scripts."
+      },
+      "year": {
+        "fullStackDeveloperCertification": "2022",
+        "tourismTechnicalDegree": "2014 - 2016",
+        "lifeguard": "2013 - 2014",
+        "bachiller": "1994 - 2011",
+        "fullStackWebDeveloper": "2023 - Present",
+        "internshipFullStackWebDeveloper": "2023 (January - March)",
+        "marketingAssistantEventOrganizer": "2013 - 2017"
+    },
+    "title": {
+        "fullStackDeveloperCertification": "Full Stack Developer Certification",
+        "tourismTechnicalDegree": "Tourism Technical Degree",
+        "lifeguard": "Lifeguard",
+        "bachiller": "Bachiller",
+        "fullStackWebDeveloper": "Full Stack Web Developer",
+        "internshipFullStackWebDeveloper": "Internship Full Stack Web Developer",
+        "marketingAssistantEventOrganizer": "Marketing Assistant and Event Organizer"
+      }
+    },
+    "skillsSection": {
+      "title": "Skills",
+      "description": "As a skilled and dedicated developer, I bring a wealth of expertise in crafting robust and dynamic web applications. Proficient in JavaScript, React, and Node.js, my technical repertoire extends to encompass various other technologies essential for modern software development. \nMy proficiency allows me to build interactive and responsive user interfaces, excel at developing scalable and efficient front-end solutions, build high-performance back-end systems. I am well-versed in designing RESTful APIs, handling data efficiently, and ensuring the seamless integration of front-end and back-end components.\nContinuously expanding my skill set and staying abreast of emerging technologies, I am enthusiastic about contributing my expertise to projects that demand excellence and innovation. Whether working independently or as part of a collaborative team, I am dedicated to delivering solutions that not only meet but exceed expectations.",
+      "development": {
+        "name": "Development"
+      },
+      "ui_design": {
+        "name": "UI/UX design"
+      },
+      "photography": {
+        "name": "Photography"
+      }
+    },
+    "portfolioSection": {
+      "title": "Recent Work"
+    },
+    "portfolio": {
+      "everything": "Everything",
+      "creative": "Creative",
+      "art": "Art",
+      "design": "Design",
+      "branding": "Branding"
+    },
+    "contactSection": {
+      "title": "Get In Touch",
+      "subtitle": "Let's talk about everything!",
+      "emailMessage": "Send me an email. 👋🏼",
+      "placeholderName": "Insert your name",
+      "placeholderEmail": "Insert your email",
+      "placeholderSubject": "Insert your subject",
+      "placeholderMessage": "Write your message",
+      "buttonText": "Send Message",
+      "successMessage": "Your request was successfully submitted."
+    }
+}
