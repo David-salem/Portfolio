@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/david-salem/static/css/main.70fb78af.css",
+    "main.js": "/david-salem/static/js/main.d7b0ac51.js",
+    "static/media/david.png": "/david-salem/static/media/david.c7ee679edb5261d8ce27.png",
+    "static/media/logo.svg": "/david-salem/static/media/logo.01cebf60edab5722dd87c977074a15bf.svg",
+    "static/media/work-4.svg": "/david-salem/static/media/work-4.b1e5c1341899ee00d86d6c613f593837.svg",
+    "static/media/work-3.svg": "/david-salem/static/media/work-3.f1d02dc63be36a2005f8d395ecb8b36c.svg",
+    "static/media/work-1.svg": "/david-salem/static/media/work-1.bebc0ee30ea8dd5325cfeb0fe8f2615b.svg",
+    "static/media/service-1.svg": "/david-salem/static/media/service-1.cf1ed095ef4b3f923356075cee1bc398.svg",
+    "static/media/work-6.svg": "/david-salem/static/media/work-6.e53b868f21628c547fd12d76c5b599db.svg",
+    "static/media/work-5.svg": "/david-salem/static/media/work-5.d7139045fa5cd7bea4b9807b31919a00.svg",
+    "static/media/work-2.svg": "/david-salem/static/media/work-2.2b1987b3b6f51b87b2538a61b31a43d4.svg",
+    "static/media/service-3.svg": "/david-salem/static/media/service-3.a324186e2cfcc11f1ad1ea2c0a4ffa55.svg",
+    "static/media/service-2.svg": "/david-salem/static/media/service-2.5c151f1353d4629154fbf0e537115128.svg",
+    "static/media/dots-bg.svg": "/david-salem/static/media/dots-bg.aa8289c51cd678b8cd47.svg",
+    "index.html": "/david-salem/index.html",
+    "static/media/getFetch.cjs": "/david-salem/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.70fb78af.css.map": "/david-salem/static/css/main.70fb78af.css.map",
+    "main.d7b0ac51.js.map": "/david-salem/static/js/main.d7b0ac51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70fb78af.css",
+    "static/js/main.d7b0ac51.js"
+  ]
+}
