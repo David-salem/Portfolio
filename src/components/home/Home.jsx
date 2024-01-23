@@ -22,7 +22,7 @@ export const Home = ({ t }) => {
 
           <a href="https://www.instagram.com/david.salem?igsh=MWN3MWVxdmQ5MjN3aQ==" target="_blank" rel="noopener noreferrer">
             <i className="fa-brands fa-instagram"></i>
-          </a>
+          </a> 
         </div>
 
         <div className="quote">
