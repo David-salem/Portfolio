@@ -8,7 +8,7 @@ export const Home = ({ t }) => {
   return (
     <section className="home_container" id="home">
       <div className="intro">
-        <h1 className="home_name">Home</h1>
+        <h1 className="home_name">{t("homeSection.name")}</h1>
         <span className="home_education">{t("homeSection.education")}</span>
 
         <div className="home_social-link">
