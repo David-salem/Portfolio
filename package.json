@@ -2,7 +2,7 @@
     "name": "porfolio",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://david-salem.github.io/david-salem/",
+    "homepage": "https://david-salem.github.io/portfolio/",
     "dependencies": {
       "@emailjs/browser": "^3.11.0",
       "@emotion/react": "^11.11.3",
