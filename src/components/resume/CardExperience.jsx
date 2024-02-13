@@ -31,6 +31,7 @@ const CardExperience = (props) => {
                             job={props.job}
                             achievements={props.achievements}
                             skills={props.skills}
+                            id={props.id}
                           />}
         </div>
     );

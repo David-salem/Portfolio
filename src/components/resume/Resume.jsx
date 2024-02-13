@@ -44,6 +44,7 @@ export const Resume = ({ t }) => {
                                     job={t(`${val.job}`)}
                                     achievements={t(`${val.achievements}`)}
                                     skills={t(`${val.skills}`)}
+                                    id={val.id}
                                 />
                             );
                         }

@@ -44,6 +44,17 @@ const Modal = (props) => {
         document.body.style.overflow = "auto";
     };
 
+    const handleDownloadRecommendation = () => {
+        const cvPath = `${process.env.PUBLIC_URL}/RecommendationLetter.pdf`;
+
+        const link = document.createElement("a");
+        link.href = cvPath;
+        link.download = "RecommendationLetter.pdf";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
     return (
         <div className={`overlay ${props.active ? "active" : ""}`}>
             <div className={`modal ${props.active ? "active" : ""}`} ref={modalRef}>
@@ -62,6 +73,11 @@ const Modal = (props) => {
                         <span className="label">{t("modal.skillsLabel")}:</span> {props.skills}
                     </p>
                 </div>
+                {props.id === 6 && (
+                    <button className="download-recommendation" onClick={handleDownloadRecommendation}>
+                        {t("modal.downloadRecommendation")}
+                    </button>
+                )}
             </div>
         </div>
     );    

@@ -1,47 +1,41 @@
-import Work1 from "../../assests/work-1.svg";
-import Work2 from "../../assests/work-2.svg";
-import Work3 from "../../assests/work-3.svg";
-import Work4 from "../../assests/work-4.svg";
-import Work5 from "../../assests/work-5.svg";
-import Work6 from "../../assests/work-6.svg";
+import Work1 from "../../assests/petProject.png";
+import Work2 from "../../assests/bot.png";
+import Work3 from "../../assests/socialMedia.png";
+import Work4 from "../../assests/Insait.png";
 
 const Menu = [
-    {
-      id: 1,
-      image: Work1,
-      title: "Project Management Illustration",
-      category: "Design",
-    },
-    {
-      id: 2,
-      image: Work2,
-      title: "Guest App Walkthrough Screens",
-      category: "Art",
-    },
-    {
-      id: 3,
-      image: Work3,
-      title: "Delivery App Wireframe",
-      category: "Branding",
-    },
-    {
-      id: 4,
-      image: Work4,
-      title: "Onboarding Motivation",
-      category: "Design",
-    },
-    {
-      id: 5,
-      image: Work5,
-      title: "iMac Mockup Design",
-      category: "Creative",
-    },
-    {
-      id: 6,
-      image: Work6,
-      title: "Game Store App Concept",
-      category: "Art",
-    },
-  ];
+  {
+    id: 1,
+    image: Work1,
+    title: "Pet Shop",
+    description: "portfolio.descriptionPetShot",
+    github: "https://github.com/David-salem/pet-adoption",
+    link: "",
+  },
+  {
+    id: 2,
+    image: Work2,
+    title: "Trading Bot",
+    description: "portfolio.descriptionBot",
+    github: "",
+    link: "",
+  },
+  {
+    id: 3,
+    image: Work3,
+    title: "Social App",
+    description: "portfolio.descriptionSocialApp",
+    github: "https://github.com/David-salem/social-media-app",
+    link: "",
+  },
+  {
+    id: 4,
+    image: Work4,
+    title: "Insait",
+    description: "portfolio.descriptionInsait",
+    github: "",
+    link: "https://insait.io/",
+  },
+];
 
 export default Menu;
