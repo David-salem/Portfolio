@@ -11,7 +11,7 @@
   "homeSection": {
     "name": "David Salem",
     "education": "Desarrollador Fullstack",
-    "quote": "30 años, Argentino. \nBuscando constantemente nuevos desafíos. \nEncuentro satisfacción colaborando con individuos y contribuyendo a equipos transformadores. \nEn mi tiempo libre, disfruto de la naturaleza, el surf, viajar y buena comida."
+    "quote": "Apasionado por el desarrollo de soluciones innovadoras que marcan la diferencia. Constantemente en la búsqueda de desafíos que me permitan crecer y aportar valor. Me destaco en entornos colaborativos donde puedo influir positivamente en equipos orientados a la transformación y la excelencia. \nMi tiempo libre lo dedico a explorar nuevas tecnologías, construir proyectos creativos y disfrutar de actividades al aire libre como el senderismo, la fotografía y la cocina experimental. Siempre en movimiento y listo para el próximo desafío."
   },
   "scrollDown": "Desplázate hacia abajo",
   "aboutSection": {
@@ -19,7 +19,7 @@
     "description": {
       "paragraph1": "En 2022, tomé la decisión de ampliar mi perfil profesional adquiriendo conocimientos en desarrollo de software. Impulsado por mi profundo interés en la última tecnología, completé mi formación como Desarrollador Fullstack certificado en ITC. Después de una exitosa pasantía en Insait, rápidamente me sumergí en Alaia, una empresa que me permitió aplicar y demostrar mi variado conjunto de habilidades.",
       "paragraph2": "Mi enfoque principal en la actualidad está dedicado a mi desarrollo continuo como programador. Estoy activamente comprometido en ampliar mi conjunto de habilidades, explorar nuevos desafíos y mejorar mi competencia en varios lenguajes de programación. Estoy entusiasmado por contribuir con mis conocimientos y habilidades a proyectos impactantes, aprovechando mi adaptabilidad para navegar por el panorama de la industria tecnológica.",
-      "paragraph3": "Creo firmemente que la tecnología es clave para fomentar la innovación y la eficiencia en cualquier organización. Si buscas profesionalismo y dedicación, ¡cuenta conmigo!"
+      "paragraph3": "Creo firmemente que la tecnología es clave para fomentar la innovación y la eficiencia en cualquier organización. Si buscas profesionalismo y dedicación, cuenta conmigo!"
     },
     "downloadCV": "Descargar CV",
     "pathCV": "/Resume-es.pdf"
@@ -35,7 +35,8 @@
   "modal": {
     "jobDescriptionLabel": "Descripción del trabajo",
     "achievementsLabel": "Logros destacados",
-    "skillsLabel": "Habilidades adquiridas"
+    "skillsLabel": "Habilidades adquiridas",
+    "downloadRecommendation": "Carta de recomendacion"
   },
   "servicesSection": {
     "title": "Servicios"
@@ -76,7 +77,7 @@
     "year": {
       "fullStackDeveloperCertification": "2022",
       "tourismTechnicalDegree": "2014 - 2016",
-      "lifeguard": "2018 - Presente",
+      "lifeguard": "2019 - Presente",
       "bachiller": "1994 - 2011",
       "fullStackWebDeveloper": "2023 - Presente",
       "internshipFullStackWebDeveloper": "2023 (Enero - Marzo)",
@@ -109,11 +110,10 @@
     "title": "Trabajos Recientes"
   },
   "portfolio": {
-    "everything": "Todo",
-    "creative": "Creativo",
-    "art": "Arte",
-    "design": "Diseño",
-    "branding": "Branding"
+    "descriptionPetShot": "PetPals es una plataforma de comercio electrónico diseñada para satisfacer las necesidades de propietarios de mascotas y entusiastas por igual. La plataforma ofrece una experiencia de compra fluida para una amplia gama de productos para mascotas.",
+    "descriptionBot": "Bot de Trading MQL4 es un sofisticado sistema de trading automatizado diseñado para operar dentro de la plataforma MetaTrader 4 (MT4). Aprovechando el poder del trading algorítmico, este bot ejecuta órdenes de compra y venta en el mercado de divisas (Forex) basándose en criterios predefinidos y estrategias de trading.",
+    "descriptionSocialApp": "Connectify es una aplicación dinámica de redes sociales diseñada para conectar a personas de diversos orígenes e intereses, fomentando interacciones significativas y participación comunitaria. Ya sea que los usuarios busquen ampliar su círculo social, compartir experiencias o descubrir nuevos intereses, Connectify proporciona una plataforma para una conexión y comunicación fluidas.",
+    "descriptionInsait": "Portal de Marketing impulsado por datos es una herramienta poderosa diseñada específicamente para líderes de marketing dentro de instituciones financieras, con el fin de aprovechar el análisis de datos y las ideas para alcanzar sus objetivos comerciales."
   },
   "contactSection": {
     "title": "Ponte en contacto",
